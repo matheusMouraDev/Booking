@@ -9,13 +9,16 @@ public class Controler extends javax.swing.JFrame {
 
     public Controler() {
         initComponents(); 
-    }
-    
-    public static void main(String args[]) {
+        
         JFrame frame = new JFrame();
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        
+    }
+    
+    public static void main(String args[]) {
+        
     }
 
     @SuppressWarnings("unchecked")
@@ -28,11 +31,11 @@ public class Controler extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1072, Short.MAX_VALUE)
+            .addGap(0, 1091, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 642, Short.MAX_VALUE)
+            .addGap(0, 661, Short.MAX_VALUE)
         );
 
         pack();
